@@ -1,0 +1,67 @@
+.header{
+    display: grid;
+}
+
+.header .topSection{
+    display: flex;
+    align-items: center;
+    background-color: #F5F7FA;
+    justify-content: space-between;
+    height: 45px;
+    
+    padding-left: 95px;
+    padding-right: 95px;
+
+}
+.topSection div ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;    
+}
+.topSection div ul a{
+    text-decoration: none;
+    color: #141D24;
+    font-size:  14px;
+}
+.topSection .rightSide{
+    display: flex;
+    align-items: center;
+
+}
+.bottomSection{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 95px;
+    padding-right: 95px;
+    align-items: center;
+}
+.bottomSection .bottomLeft{
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.bottomSection .bottomLeft a{
+    text-decoration: none;
+    color: #141D24;
+}
+.bottomSection .bottomRight{
+    display: flex;
+    gap: 20px;
+}
+.bottomSection .bottomRight button{
+    background-color: white;
+    color: #4A21EF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #4A21EF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bottomSection .bottomRight button:hover{
+    background-color: #4A21EF;
+    color: white;
+}

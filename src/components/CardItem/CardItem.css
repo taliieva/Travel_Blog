@@ -1,0 +1,49 @@
+.cardItem{
+    display: grid;
+    grid-template-rows: auto;
+}
+.cardItem .trip{
+    font-size: 12px;
+    font-weight: 500;
+    color: #5E6F7D;
+}
+.cardItem .tripName{
+    font-size: 16px;
+    font-weight: 600;
+    color: #141D24;
+}
+.cardItem .tripDays, .from{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5E6F7D;
+}
+.cardItem .tripPrice{
+    font-size: 16px;
+    font-weight: 600;
+    color: #141D24;
+}
+.cardItem .itemSecondSection{
+    display: flex;
+    justify-content: space-between;
+}
+.itemSecondSection .from{
+    display: flex;
+    gap: 4px;
+}
+.cardImg{
+    position: relative;
+}
+.bookMarkIcon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-shrink: 0;
+}
+.bookMark{
+    border-color: #4A21EF;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+}

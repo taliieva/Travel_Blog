@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signMain{
+    width: 100% ;
+}
+.signPage{
+    display: grid;
+    grid-template-columns: 1fr 800px;
+    
+    
+}
+.signPage img{
+    height: 100%;
+}
+.rightSignSection{
+    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.rightSignSection .signLogo{
+    text-align: center;
+    padding-top: 35px;
+}
+.signFormSection h2{
+    padding-bottom: 35px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.signFormContainer label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.signFormContainer input{
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+   
+    border-color: #E3E7EB;
+    outline: none;
+}

@@ -1,0 +1,19 @@
+.trendingNow, .brandNewTrips, .europeTrips, .asiaTrips{
+    display: flex;
+    gap: 25px;
+}
+.trend, .brand, .europe, .asia{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+    
+}
+.trend h2, .brand h2, .europe h2, .asia h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
