@@ -1,13 +1,25 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
+import bookMark from "../../assets/bookmark.svg";
+
 export default function CardItem(props){
     return(
         <div className="cardItem">
             <div className="cardImg">
                 <img src={props.photoUrl} alt="" />
-                <div className='bookMarkIcon'>
-                    <FontAwesomeIcon icon={faBookmark} className='bookMark'/>
+                <div className='favIconButton'>
+                {props.showButton && <button>
+                        <img src={props.icon} alt="" className='iconImg'/>
+                        <p className='iconText'>{props.text}</p>
+                    </button>}
                 </div>
+
+                {props.showBookMark && <div className='bookMarkIcon'>
+                    <button className='saveButton'>
+                    <img src={bookMark} alt="" className='bookMark'/>
+                    </button>
+                    
+                </div>}
                 
             </div>
             <div className="itemFirstSection">
@@ -23,5 +35,16 @@ export default function CardItem(props){
 }
 
 CardItem.defaultProps = {
-    from: "From"
+    from: "From",
+    showBookMark : true
+    
+}
+
+function Props(props){
+    return(
+        <div>
+            <img src={props.url} alt="" />
+            <p></p>
+        </div>
+    )
 }

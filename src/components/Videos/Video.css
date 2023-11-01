@@ -33,11 +33,10 @@
 .absoluteContainer .inputOnVideo{
     background-color: white;
     display: flex;
-    width: 350px;
-    margin: auto;
+    margin: 50px;
     align-items: center;
-    justify-content: space-between;
-    padding: 8px 8px 8px 24px;
+    flex: 1 0 0;
+    padding: 5px 8px 5px 24px;
     gap: 24px;
     border-radius: 70px;
 }
@@ -50,7 +49,7 @@
     outline: none;
 }
 .searchIcon{
-    padding: 16px;
+    padding: 12px;
     background-color: #4A21EF;
     border-radius: 50%;
     color: white;

@@ -37,12 +37,12 @@
 
 
 .revolution .emailInput{
-   border-radius: 25px;
+    border-radius: 25px;
     display: flex;
-    width: 400px;
+   margin: auto;
     border: 1px solid #C9D2DA;
     height: 50px;
-    margin: auto;
+    
 }
 .revolution .mail{
     width: 300px;

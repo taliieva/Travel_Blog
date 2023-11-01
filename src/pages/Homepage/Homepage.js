@@ -7,6 +7,8 @@ import HomeCardListTrend, { Asia, Europe, HomeCardListBrand } from "../../compon
 import WhyUs from "../../components/WhyUs/WhyUs.jsx";
 import HomePageVideo from "../../components/Videos/Video.jsx";
 import LocalExpert from "../../components/LocalExpert/Local.jsx";
+import BigCardItem from "../../components/BigCardItem/BigCardItem.jsx";
+import mainPhoto from "../../assets/bigPhoto.png";
 
 function HomePage() {
     return (
@@ -17,6 +19,7 @@ function HomePage() {
        <HomeCardListBrand/>
        <WhyUs/>
        <LocalExpert/>
+       <BigCardItem url={mainPhoto}/>
        <Europe/>
        <Asia/>
        <OurDestination/>

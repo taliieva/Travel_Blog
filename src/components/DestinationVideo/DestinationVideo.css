@@ -1,0 +1,12 @@
+.destinationVideoContainer{
+    width: 100%;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+.destinationVideoContainer img{
+    border-radius: 20px;
+}
+.destinationVideoAbsoluteContainer{
+    position: absolute;
+    
+}

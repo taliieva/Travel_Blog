@@ -1,16 +1,24 @@
 .cardItem{
     display: grid;
     grid-template-rows: auto;
+    border: 1px solid #E3E7EB;
+    border-radius: 20px 20px 15px 15px;
+}
+.itemFirstSection{
+    padding: 16px;
+    
 }
 .cardItem .trip{
     font-size: 12px;
     font-weight: 500;
     color: #5E6F7D;
+    margin-bottom: 8px;
 }
 .cardItem .tripName{
     font-size: 16px;
     font-weight: 600;
     color: #141D24;
+    margin-bottom: 16px;
 }
 .cardItem .tripDays, .from{
     font-size: 14px;
@@ -35,15 +43,39 @@
 }
 .bookMarkIcon{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     display: flex;
     flex-shrink: 0;
+   
+} 
+.bookMarkIcon button{
+   background-color: white;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bookMark{
-    border-color: #4A21EF;
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-width: 2px;
+    padding: 10px;
+}
+.favIconButton{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.favIconButton button{
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4A21EF;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
 }

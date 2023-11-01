@@ -11,6 +11,8 @@ import europe3 from "../../assets/europe3.png";
 import asia1 from "../../assets/asia1.png";
 import asia2 from "../../assets/asia2.png";
 import asia3 from "../../assets/asia3.png";
+import sparkle from "../../assets/sparkles.svg";
+import heart from "../../assets/player-heart.svg";
 import "../CardItem/CardItem.css";
 import "../HomeCardList/HomeCardList.css";
 export default function HomeCardListTrend(){
@@ -19,11 +21,11 @@ export default function HomeCardListTrend(){
             <h2>Trending now</h2>
             <div className="trendingNow">
             <CardItem photoUrl ={spainTrip} trip = "SPAIN TRIP" name = "Magical Madrid To Marrakech By Train" 
-            days = "12 days" price = "$1299.00"/>
+            days = "12 days" price = "$1299.00" icon = {sparkle} text ="Loved by over 40s" showButton={true} />
             <CardItem photoUrl ={italyTrip} trip = "ITALY TRIP" name = "Spectacular Sicily" 
-            days = "5 days" price = "$250.00"/>
+            days = "5 days" price = "$250.00" icon = {heart} text = "Loved by couples"showButton={true}/>
             <CardItem photoUrl ={turkeyTrip} trip = "TURKEY TRIP" name = "International Istanbul" 
-            days = "7 days" price = "$400.00"/>
+            days = "7 days" price = "$400.00" showButton={false}/>
             </div>
         </div>
     )

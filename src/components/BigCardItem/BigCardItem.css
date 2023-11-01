@@ -1,0 +1,86 @@
+.bigCardContainer{
+    width: 100%;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.mainPhoto{
+    width: 100%;
+}
+.absoluteBigCardDiv{
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    width: 400px;
+    display: grid;
+    gap: 20px;
+}
+.quoteDiv,.frameDiv{
+    background-color: white;
+    border-radius: 20px;
+  
+}
+.quoteDiv{
+    padding: 24px 32px;
+    display: grid;
+    gap: 8px;
+}
+.quoteText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quoteDiv h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #4A21EF;
+}
+.charlie{
+    color: #788795;
+    font-size: 12px;
+    font-weight: 400;
+}
+.author{
+    color: #5E6F7D;
+    font-size: 12px;
+    font-weight: 600;
+}
+.frameDiv{
+    padding: 20px 32px;
+    display: flex;
+    gap: 16px;
+   
+}
+.tiagoFrame{
+    padding: 18px;
+    background-color: #4A21EF;
+    border-radius: 50%;
+}
+.tiagoDiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.tiagoDiv p{
+    color: #788795;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tiago{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 20px;
+}
+.tiago span{
+    font-size: 16px;
+    font-weight: 400;
+}
+.divider{
+    color: #C9D2DA;
+}
+.tiago .name{
+    font-size: 16px;
+    font-weight: 600;
+}

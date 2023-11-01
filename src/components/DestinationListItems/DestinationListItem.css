@@ -1,0 +1,6 @@
+.destinationLists{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 120px 150px;
+}
