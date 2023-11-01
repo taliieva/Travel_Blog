@@ -2,6 +2,12 @@
     width: 100%;
     padding-left: 95px;
     padding-right: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
 }
 .destinationVideoContainer img{
     border-radius: 20px;
@@ -9,4 +15,17 @@
 .destinationVideoAbsoluteContainer{
     position: absolute;
     
+    color: white;
+}
+.destinationVideoAbsoluteContainer h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.destinationVideoAbsoluteContainer p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 120px;
 }
