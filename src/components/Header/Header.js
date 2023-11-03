@@ -1,6 +1,7 @@
 import "./Header.css";
 import a from "../../assets/selector.svg";
 import logo from '../../assets/Logo.png';
+import { Link } from "react-router-dom";
 
 export default function Header(){
     return(
@@ -9,10 +10,10 @@ export default function Header(){
             <div className="topSection">
                 <div>
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><Link to="/About">About us</Link></li>
+                    <li><Link to="/FAQ">FAQ</Link></li>
+                    <li><Link to="/Blog">Blog</Link></li>
+                    <li><Link to="/Contact">Contact us</Link></li>
                 </ul>
                 </div>
                 <div className="rightSide">
@@ -22,7 +23,7 @@ export default function Header(){
             </div>
             <div className="bottomSection">
                 <div className="bottomLeft">
-                    <a href="#">Destination</a>
+                    <Link to="/Destinations">Destination</Link>
                     <a href="#">Private trips</a>
                 </div>
                 <div className="bottomCenter">
@@ -30,7 +31,10 @@ export default function Header(){
                 </div>
                 <div className="bottomRight">
                     <button>I`m Feeling Lucky</button>
-                    <button>Login</button>
+                    <Link to="/Sign">
+                         <button>Login</button>
+                    </Link>
+                    
                 </div>
             </div>
             

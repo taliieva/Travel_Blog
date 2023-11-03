@@ -1,0 +1,14 @@
+.aboutTextContainer{
+    display: grid;
+    justify-content: center;
+    padding: 120px 0;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+.aboutTextContainer h2{
+    color: #141D24;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}

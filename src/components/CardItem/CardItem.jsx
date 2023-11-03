@@ -39,12 +39,3 @@ CardItem.defaultProps = {
     showBookMark : true
     
 }
-
-function Props(props){
-    return(
-        <div>
-            <img src={props.url} alt="" />
-            <p></p>
-        </div>
-    )
-}

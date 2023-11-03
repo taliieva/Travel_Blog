@@ -39,29 +39,30 @@
 .revolution .emailInput{
     border-radius: 25px;
     display: flex;
-   margin: auto;
+    margin: auto;
     border: 1px solid #C9D2DA;
-    height: 50px;
-    
+    margin: 0 80px;
+    padding: 8px 8px 8px 16px;
 }
 .revolution .mail{
-    width: 300px;
+    width: 100%;
     outline: none;
     border: none;
     border-radius: 25px;
     font-size: 16px;
     margin: 0px 20px;
+    flex: 3;
 }
 .revolution button{
-    width: 100px;
-    height: 40px;
+    flex: 1;
+    width: 100%;
+    padding: 8px 16px;
     border-radius: 20px;
     background-color: #4A21EF;
     color: white;
     font-weight: 600;
     font-size: 16px;
     border: none;
-    margin: 5px;
     cursor: pointer;
 }
 
@@ -69,7 +70,7 @@
     padding: 120px 0px;
     display: grid;
     justify-content: center;
-
+    gap: 16px;
 }
 .revolution .join{
     font-size: 32px;

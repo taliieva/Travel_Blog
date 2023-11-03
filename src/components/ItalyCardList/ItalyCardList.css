@@ -1,0 +1,17 @@
+.italyCardListContainer{
+    display: grid;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+.italyCardListContainer h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.italyCardListItems{
+    display: flex;
+    gap:40px 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

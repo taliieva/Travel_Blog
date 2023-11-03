@@ -1,0 +1,15 @@
+.helpCardContainer{
+    display: flex;
+    background-color: #F5F7FA;
+    padding: 32px;
+    gap: 16px;
+}
+.infoImg{
+    padding: 18px;
+    background-color: #4A21EF;
+    border-radius: 50%;
+}
+.helpText{
+    display: grid;
+    gap: 8px;
+}

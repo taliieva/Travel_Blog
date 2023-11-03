@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import Destinations from './pages/Destinations/Destinations';
-import HomePage from './pages/Homepage/Homepage';
-import SignIn from './pages/SignIn/SignIn';
-
+import Routers from './Routers/Routers';
 
 function App() {
   return (
     <div className="App">
-    <Destinations/>
+    <Routers/>
     </div>
   );
 }

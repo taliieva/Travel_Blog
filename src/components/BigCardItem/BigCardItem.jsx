@@ -8,25 +8,31 @@ export default function BigCardItem(props){
             <img src={props.url} alt="" className="mainPhoto"/>
             <div className="absoluteBigCardDiv">
                 <div className="quoteDiv">
-                <p className="quoteText">“Tiago put together an epic itinerary for me
-and my friends. He showed us some hidden
-hiking trails and amazing local food spots.
-He even met us for a coffee to make sure we
-had everything we needed.</p>
-                <h3>Thanks Tiago!”</h3>
-                <p className="charlie">Charlie, rappelling down a 370-foot waterfall</p>
-                <p className="author">The Azores</p>
+                <p className="quoteText">{props.quoteText}</p>
+                <h3>{props.header}</h3>
+                <p className="charlie">{props.text1}</p>
+                <p className="author">{props.author}</p>
             </div>
             <div className="frameDiv">
                 <div className="tiagoFrame">
                     <img src={frame} alt="" />
                 </div>
                 <div className="tiagoDiv">
-                    <p>Trip crafted by</p>
+                    <p>{props.text2}</p>
                     <div className="tiago">
-                        <span className="name">Tiago</span>
+                        <span className="name">{props.name}
+                        {props.showIcon && <div className="iconDiv">
+                        <img src={props.icon1} alt="" />
+                        <img src={props.icon1} alt="" />
+                        <img src={props.icon1} alt="" />
+                        <img src={props.icon1} alt="" />
+                        <img src={props.icon2} alt="" />
+                        </div>}
+                        
+                        </span>
+                     
                         <span className="divider">|</span>
-                        <span>Local expert in Portugal</span>
+                        <span>{props.text3}</span>
                     </div>
                 </div>
             </div>
