@@ -11,6 +11,10 @@
 }
 .ListItemContainer{
     width: 100%;
+    border-right: 1px solid #E3E7EB;
+}
+.ListItemContainer:last-child{
+    border-right: 0;
 }
 .ListItemContainer p{
     font-size: 28px;

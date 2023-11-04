@@ -39,25 +39,22 @@
 .revolution .emailInput{
     border-radius: 25px;
     display: flex;
-    margin: auto;
     border: 1px solid #C9D2DA;
     margin: 0 80px;
-    padding: 8px 8px 8px 16px;
+    padding: 8px 8px 8px 24px;
 }
 .revolution .mail{
     width: 100%;
     outline: none;
     border: none;
-    border-radius: 25px;
     font-size: 16px;
-    margin: 0px 20px;
     flex: 3;
 }
 .revolution button{
     flex: 1;
     width: 100%;
     padding: 8px 16px;
-    border-radius: 20px;
+    border-radius: 24px;
     background-color: #4A21EF;
     color: white;
     font-weight: 600;
