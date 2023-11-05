@@ -3,32 +3,27 @@ import signLogo from "../../assets/Logo.png";
 import googleLogo from "../../assets/googleFrame.svg";
 import appleLogo from "../../assets/appleFrame.svg";
 import facebookLogo from "../../assets/facebookFrame.svg";
-import eye from "../../assets/01 align center.svg";
+import leftChevron from "../../assets/Chevron_Left.svg";
 import { Link } from "react-router-dom";
-import "../SignIn/SignIn.css";
-export default function SignIn(){
+import "../TripPlanning/TripPlanning.css";
+export default function TripPlanning(){
     return(
-        <div className="signMain">
-            <div className="signPage">
+        <div className="tripPlanMain">
+            <div className="tripPlanPage">
             <img src={signPhoto} alt="" />
-            <div className="rightSignSection">
+            <div className="rightTripSection">
                 <div className="signLogo">
+                    <Link to="/Sign"> <img src={leftChevron} alt="" className="arrow"/></Link>
+               
                     <img src={signLogo} alt="" />
                 </div>
-                <div className="signFormSection">
-                    <h2>Sign in for your exciting journey</h2>
-                    <form action="#" className="signFormContainer">
+                <div className="tripFormSection">
+                    <h2>Create an account to start trip planning</h2>
+                    <form action="#" className="tripFormContainer">
                         <label htmlFor="mail">Email</label>
                         
                         <input type="text" id="mail" placeholder="someone@example.com" className="mail"/>
-                       
-                        <label htmlFor="password">Password</label>
-                        <div className="passwordDiv">
-                            <input type="password" name="" id="password" placeholder="password"/>
-                            <img src={eye} alt="" />
-                        </div>
-                        <Link className="forgotPassword" to="/ForgotPassword">Forgot password?</Link>
-                        <button>Sign in</button>
+                        <button>Start trip planning</button>
                     </form>
                 </div>
                 <div className="socialSection">
@@ -39,8 +34,9 @@ export default function SignIn(){
                         <button className="logoDiv"><img src={facebookLogo} alt="" /></button>
                     </div>
                 </div>
-                <div className="goLoginSection"> 
-                    <p>Don`t have an account? <Link to="/TripPlanning">Create one for new adventure!</Link></p>
+                <div className="privacySection"> 
+                    <p>By creating an account, you agree to elsewhere's <br />
+                         <a href="#">Terms of Use</a> or <a href="#"> Privacy Policy</a>.</p>
                 </div>
             </div>
         </div>

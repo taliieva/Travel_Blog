@@ -13,14 +13,14 @@ export default function LocalExpert(){
                     <div className="topVectorContaier">
                         <img src={vector1} alt="" />
                         <p>Why trust Gary in Florida to
-                        plan your trip to South <br /> Africa?</p>
+                        plan your trip to South  Africa?</p>
                     </div>
                 </div>
                 <div className="bottomPhoto">
                     <img src={local2} alt="" />
                     <div className="bottomVectorContainer">
                         <img src={vector2} alt="" />
-                        <p>When Angela in <br />
+                        <p>When Angela in 
                         Johannesburg knows best.</p>
                     </div>
                 </div>

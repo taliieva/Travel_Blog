@@ -32,6 +32,9 @@
     align-items: center;
 
 }
+.active-link{
+    color: #4A21EF;
+}
 .bottomSection{
     height: 100px;
     display: flex;

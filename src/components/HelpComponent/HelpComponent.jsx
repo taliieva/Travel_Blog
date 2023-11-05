@@ -13,7 +13,7 @@ import why3 from "../../assets/why3.png";
 export default function HelpComponent() {
   return (
     <div className="infoContainer">
-      <h2>Expert guidance to help you plan your trip</h2>
+      <h2>Expert guidance to help you <br /> plan your trip</h2>
       <div className="infoContainerItem">
         <HelpCardItem
           frameUrl={info1}

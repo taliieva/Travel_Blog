@@ -7,6 +7,8 @@ import ItalyPage from '../pages/ItalyPage/ItalyPage';
 import SignIn from '../pages/SignIn/SignIn';
 import Blog from '../pages/Blog/Blog';
 import ContactUs from '../pages/ContactUs/ContactUs';
+import ForgotPassword from '../pages/ForgotPassword/ForgotPassword';
+import TripPlanning from '../pages/TripPlanning/TripPlanning';
 
 
 export default function Routers(){
@@ -21,6 +23,8 @@ export default function Routers(){
                 <Route path='/Contact' element={<ContactUs/>}/>
                 <Route path='/Italy' element={<ItalyPage/>}/>
                 <Route path='/Sign' element={<SignIn/>}/>
+                <Route path='ForgotPassword' element={<ForgotPassword/>}/>
+                <Route path='/TripPlanning' element={<TripPlanning/>}/>
             </Routes>
         </div>
        
