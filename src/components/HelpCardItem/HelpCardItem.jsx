@@ -6,9 +6,11 @@ export default function HelpCardItem(props){
             <div className="infoImg">
                 <img src={props.frameUrl} alt="" />
             </div>
-            <div className="helpText">
+            <div className={props.text ? "helpText":"centerText"}>
+                <div>
                 <h4>{props.header}</h4>
                 <p>{props.text}</p>
+                </div>
             </div>
             
         </div>

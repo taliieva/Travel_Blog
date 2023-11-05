@@ -9,6 +9,7 @@ export default function ItalyTripInfoList() {
       <h2>Must-see attractions for your itinerary</h2>
       <div className="tripInfoListItems">
         <TripInfoItem
+        className="item"
           src={tripInfo1}
           tripName="Vatican museums"
           info="Founded by Pope Julius II in the early 16th century and enlarged by successive pontiffs, the Vatican Museums boast one of the world's greatest art…"

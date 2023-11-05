@@ -9,11 +9,18 @@ export function Questions({ questionIndex, question, answer }) {
     setShowAnswer(!showAnswer);
   };
   return (
-    <div className="questionRow">
-        <span className="questionIndex">{questionIndex}</span> 
-        <p className="question">{question}</p>
+    <div >
+      <div className="questionRow">
+      <p className="questionIndex">{questionIndex}</p> 
+      <div>
+      <p className="question">{question}</p>
       {showAnswer && <p className="questionAnswer">{answer}</p>}
-      <button onClick={toggleAnswer} className={showAnswer ? "answerButton" : "questionButton"}>{showAnswer ? "x" : "+"}</button>
+      </div>
+     
+   <button onClick={toggleAnswer} 
+   className={showAnswer ? "answerButton" : "questionButton"}>{showAnswer ? "x" : "+"}</button>
+      </div>
+        
     </div>
   );
 }

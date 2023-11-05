@@ -1,13 +1,14 @@
 .infoContainer{
     display: grid;
     gap: 40px;
-    margin-bottom: 120px;
+    margin: 120px 95px;
 }
 .infoContainerItem{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px 25px;
+    width: 100%;
 }
 .infoContainer h2{
     text-align: center;
