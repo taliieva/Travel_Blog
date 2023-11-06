@@ -12,6 +12,7 @@ export default function ForgotPassword(){
                 <div className="forgotLogo">
                 <Link to="/Sign"> <img src={leftChevron} alt="" className="arrow"/></Link>
                     <img src={signLogo} alt="" />
+                    <div></div>
                 </div>
                 <div className="forgotFormSection">
                     <h2>Looking to change your password?</h2>

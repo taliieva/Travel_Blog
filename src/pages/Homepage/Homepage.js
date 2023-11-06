@@ -13,8 +13,15 @@ import HomePageVideo from "../../components/Videos/Video.jsx";
 import LocalExpert from "../../components/LocalExpert/Local.jsx";
 import BigCardItem from "../../components/BigCardItem/BigCardItem.jsx";
 import mainPhoto from "../../assets/bigPhoto.png";
+import upArrow from "../../assets/Arrow_Up_SM.svg";
 import "../../pages/Homepage/Homepage.css";
 function HomePage() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+  };
   return (
     <div className="home">
       <Header />
@@ -41,6 +48,12 @@ had everything we needed."
       <Asia />
       <OurDestination />
       <Revolution />
+      <div className="upArrowButton">
+        <button onClick={scrollToTop}>
+        <img src={upArrow} alt="" />
+        </button>
+          
+      </div>
       <Footer />
     </div>
   );

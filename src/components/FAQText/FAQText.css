@@ -1,51 +1,67 @@
-.questionRow{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    gap: 2%;
-    margin: 0 auto;
+.questionMain {
+  width: 100%;
+  margin: 120px 0;
 }
-.questionIndex{
-    font-size: 40px;
-    line-height: 56px;
-    font-weight: 700;
-    color: #4A21EF;
+.questionRow {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 80%;
+  gap: 2%;
+  margin: 20px auto;
+  
+  border-bottom: 1px solid #E3E7EB;
 }
-.question{
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 600;
-    color: #141D24;
+.questionIndex {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #4a21ef;
 }
-.questionAnswer{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #141D24;
+.questionContainer {
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 10px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #E3E7EB;
 }
-.questionButton{
-    width: 48px;
-    height: 48px;
-    color: #788795;
-    background-color: #F5F7FA;
-    font-size: 20px;
-    border-radius: 50%;
-    border: none;
+.question {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #141d24;
+  width: 100%;
 }
-.questionButton:hover{
-    color: #FFF;
-    background-color: #4A21EF;
+.questionAnswer {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #141d24;
+  text-align: left;
+  width: 90%;
+  padding:30px 0;
+  
 }
-.answerButton{
-    height: 48px;
-    width: 48px;
-    font-size: 18px;
-    color: #FFF;
-    background-color: #4A21EF;
-    border-radius: 50%;
-    border: none;
+.questionButton {
+  width: 48px;
+  height: 48px;
+  color: #788795;
+  background-color: #f5f7fa;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
 }
-.questionContainer{
-    padding: 120px 0;
+.questionButton:hover {
+  color: #fff;
+  background-color: #4a21ef;
 }
+.answerButton {
+  height: 48px;
+  width: 48px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4a21ef;
+  border-radius: 50%;
+  border: none;
+}
+

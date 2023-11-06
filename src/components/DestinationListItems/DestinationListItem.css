@@ -4,3 +4,29 @@
     gap: 24px;
     padding: 120px 150px;
 }
+
+.ListItemContainer li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.ListItemContainer a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: black;
+}
+.ListItemContainer{
+    width: 100%;
+    border-right: 1px solid #E3E7EB;
+}
+.ListItemContainer:last-child{
+    border-right: 0;
+}
+.ListItemContainer p{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #4A21EF;
+    margin-bottom: 24px;
+}

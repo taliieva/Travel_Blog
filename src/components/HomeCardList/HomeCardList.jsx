@@ -39,9 +39,9 @@ export function HomeCardListBrand(){
             <CardItem photoUrl ={brand1} trip = "SPAIN TRIP" name = "Magical Madrid To Marrakech By Train" 
             days = "12 days" price = "$1299.00"/>
             <CardItem photoUrl ={brand2} trip = "ITALY TRIP" name = "Spectacular Sicily" 
-            days = "5 days" price = "$1299.00"/>
+            days = "5 days" price = "$250.00"/>
             <CardItem photoUrl ={brand3} trip = "TURKEY TRIP" name = "International Istanbul" 
-            days = "7 days" price = "$1299.00"/>
+            days = "7 days" price = "$400.00"/>
             </div>
         </div>
     )

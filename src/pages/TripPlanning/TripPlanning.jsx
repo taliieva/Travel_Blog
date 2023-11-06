@@ -15,7 +15,8 @@ export default function TripPlanning(){
                 <div className="signLogo">
                     <Link to="/Sign"> <img src={leftChevron} alt="" className="arrow"/></Link>
                
-                    <img src={signLogo} alt="" />
+                    <img src={signLogo} alt="" className="logo"/>
+                    <div></div>
                 </div>
                 <div className="tripFormSection">
                     <h2>Create an account to start trip planning</h2>

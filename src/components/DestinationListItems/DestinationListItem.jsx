@@ -1,5 +1,18 @@
-import ListItem from "../ListItems/ListItem";
 import "../../components/DestinationListItems/DestinationListItem.css";
+
+import { Link } from "react-router-dom";
+export function ListItem(props){
+    return(
+        <div className="ListItemContainer">
+            <ul>
+                <p>{props.header}</p>
+                {props.list.map((item,index)=>(
+                    <li key={index}><Link to={`/${item}`}>{item}</Link></li>
+                ))}
+            </ul>
+        </div>
+    )
+}
 
 export default function DestinationlistItem() {
   return (
