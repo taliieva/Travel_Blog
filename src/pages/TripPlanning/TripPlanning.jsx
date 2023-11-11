@@ -10,7 +10,7 @@ export default function TripPlanning(){
     return(
         <div className="tripPlanMain">
             <div className="tripPlanPage">
-            <img src={signPhoto} alt="" />
+            <img src={signPhoto} alt="" className="tripLeftPhoto"/>
             <div className="rightTripSection">
                 <div className="signLogo">
                     <Link to="/Sign"> <img src={leftChevron} alt="" className="arrow"/></Link>

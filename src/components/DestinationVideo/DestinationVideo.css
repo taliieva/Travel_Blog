@@ -1,7 +1,7 @@
 .destinationVideoContainer{
     width: 100%;
-    padding-left: 95px;
-    padding-right: 95px;
+    padding-left: 72px;
+    padding-right: 72px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +11,7 @@
 }
 .destinationVideoContainer img{
     border-radius: 20px;
+    width: 100%;
 }
 .destinationVideoAbsoluteContainer{
     position: absolute;
@@ -28,4 +29,29 @@
     line-height: 24px;
     font-weight: 400;
     padding-bottom: 120px;
+}
+
+@media screen and (max-width:480px) {
+    .destinationVideoContainer{
+        margin: 15px auto;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 95%;
+        /* padding: 0 15px; */
+    }
+    .destinationVideoContainer img{
+        width: max-content;
+
+    }
+    .destinationVideoAbsoluteContainer h1{
+        font-size: 24px;
+        line-height: 48px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    .destinationVideoAbsoluteContainer p{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+    }
 }

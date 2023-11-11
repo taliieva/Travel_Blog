@@ -14,3 +14,18 @@
     font-weight: 700;
     line-height: 48px;
 }
+
+@media screen and (max-width:480px) {
+    .destinationContainer{
+       /* width: 90%; */
+    }
+    .destinationCardItem{
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    gap:40px 25px;
+    display: flex;
+    }
+}
+

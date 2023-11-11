@@ -11,7 +11,7 @@ export default function Footer(){
                 <p>Discover the world's wonders and let us be
                 <br />your trusted guide to extraordinary destinations.</p>
                 </div>
-                    <p className="copy">© Copyright 2023 Tourista Ltd. All Rights Reserved.</p>
+                    <p className="copy top">© Copyright 2023 Tourista Ltd. All Rights Reserved.</p>
             </div>
             <div className="rightSide">
             <div className="menu">   
@@ -41,6 +41,7 @@ export default function Footer(){
                     <li><a href="#">Tiktok</a></li>
                 </ul>
             </div>
+            <p className="copy bottom">© Copyright 2023 Tourista Ltd. All Rights Reserved.</p>
             </div>
             
         </div>

@@ -14,7 +14,7 @@
 }
 .signPage{
     display: grid;
-    grid-template-columns: 1fr 800px;
+    grid-template-columns: 1fr 1fr;
 }
 .signPage img{
     height: 100%;
@@ -127,4 +127,51 @@
     outline: none;
     width: 100%;
     border: none;
+}
+.topLoginSection{
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .signPage{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .signPage .leftSignPhoto{
+        display: none;
+    }
+    .signLogo{
+        padding: 20px 0;
+    }
+    .signFormSection h2{
+        font-size: 20px;
+        line-height: 32px;
+        align-self: stretch;
+        
+    }
+    .signFormContainer{
+        margin-bottom: 40px;
+    }
+    .signFormSection{
+        gap: 24px;
+        margin-top: 40px;
+    }
+    .logoContainer{
+        flex-direction: column;
+    }
+    .topLoginSection{
+        display: block;
+    }
+    .bottomLoginSection{
+        display: none;
+    }
+    .goLoginSection{
+        padding: 20px 0;
+        text-align: start;
+    }
+    .socialSection{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
 }

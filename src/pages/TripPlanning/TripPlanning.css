@@ -14,7 +14,7 @@
 }
 .tripPlanPage{
     display: grid;
-    grid-template-columns: 1fr 800px;
+    grid-template-columns: 1fr 1fr;
 }
 .tripPlanPage img{
     height: 100%;
@@ -106,4 +106,27 @@
 }
 .privacySection a{
     color: #4A21EF;
+}
+
+@media screen and (max-width: 480px) {
+    .tripPlanPage{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tripPlanPage .tripLeftPhoto{
+        display: none;
+    }
+    .rightTripSection .signLogo{
+        padding: 20px 0;
+    }
+    .tripFormSection{
+        margin: 40px 0;
+    }
+    .tripFormSection h2{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .socialSection{
+        margin: 20px 0;
+    }
 }

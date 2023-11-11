@@ -1,7 +1,7 @@
 .infoContainer{
     display: grid;
     gap: 40px;
-    margin: 120px 95px;
+    margin: 120px 72px;
 }
 .infoContainerItem{
     display: flex;
@@ -15,5 +15,17 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
+    
+}
+
+@media screen and (max-width:480px) {
+    .infoContainerItem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .infoContainer{
+        margin: 32px 30px;
+    }
     
 }

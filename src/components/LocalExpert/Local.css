@@ -47,3 +47,66 @@
     font-weight: 600;
     width: 80%;
 }
+.responsiveContainer{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .localContainer{
+        display: none;
+    }
+    .responsiveContainer{
+        display: block;
+        width: 100%;
+        padding: 24px 15px;
+    }
+    .localExpert{
+        gap: 24px;
+        padding: 32px 0;
+    }
+    .responsiveBottomPhoto{
+        position: relative;
+        top: -60px;
+    }
+    .responsiveTopPhoto{
+        position: relative;
+    }
+    .topResponsVectorContaier{
+        position: absolute;
+        top: 15px;
+        left: -20px;
+        
+    }
+    .topResponsVectorContaier img{
+        width: 200px;
+    }
+    .topResponsVectorContaier p{
+        position: absolute;
+        top: 10px;
+        
+        width: 90%;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .responsiveBottomPhoto{
+        position: relative;
+    }
+    .bottomResponsVectorContaier{
+        position: absolute;
+        bottom: 15px;
+        right: -90px;
+    }
+    .bottomResponsVectorContaier img{
+        width: 80%;
+    }
+    .bottomResponsVectorContaier p{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        width: 75%;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+}

@@ -10,7 +10,7 @@ export default function SignIn(){
     return(
         <div className="signMain">
             <div className="signPage">
-            <img src={signPhoto} alt="" />
+            <img src={signPhoto} alt="" className="leftSignPhoto"/>
             <div className="rightSignSection">
                 <div className="signLogo">
                     <img src={signLogo} alt="" />
@@ -31,6 +31,9 @@ export default function SignIn(){
                         <button>Sign in</button>
                     </form>
                 </div>
+                <div className="goLoginSection topLoginSection"> 
+                    <p>Don`t have an account? <Link to="/TripPlanning">Create one for new adventure!</Link></p>
+                </div>
                 <div className="socialSection">
                     <span>or use one of this</span>
                     <div className="logoContainer">
@@ -39,7 +42,7 @@ export default function SignIn(){
                         <button className="logoDiv"><img src={facebookLogo} alt="" /></button>
                     </div>
                 </div>
-                <div className="goLoginSection"> 
+                <div className="goLoginSection bottomLoginSection"> 
                     <p>Don`t have an account? <Link to="/TripPlanning">Create one for new adventure!</Link></p>
                 </div>
             </div>

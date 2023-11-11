@@ -22,6 +22,7 @@ function HomePage() {
       behavior: 'smooth' 
     });
   };
+  
   return (
     <div className="home">
       <Header />
@@ -31,7 +32,7 @@ function HomePage() {
       <WhyUs/>
       <LocalExpert />
       <BigCardItem
-        url={mainPhoto}
+        backgroundImage={mainPhoto}
         quoteText="“Tiago put together an epic itinerary for me
 and my friends. He showed us some hidden
 hiking trails and amazing local food spots.

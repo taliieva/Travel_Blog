@@ -33,7 +33,12 @@
     font-size: 12px;
     margin-top: 60px;
 }
-
+.rightSide .bottom{
+    display: none;
+}
+.leftSide .logo{
+    margin-bottom: 12px;
+}
 
 
 .revolution .emailInput{
@@ -86,7 +91,7 @@
     display: flex;
     justify-content: center;
     background-color: #4A21EF;
-    height: 190px;
+    padding: 72px 0;
     align-items: center;
     gap: 20px;
 }
@@ -110,4 +115,40 @@
 }
 .angle{
     color: #4A21EF;
+}
+
+@media screen and (max-width:780px) {
+    .ourdestination{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution .text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .revolution .emailInput{
+        margin: auto;
+    }
+    .footerSection{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 30px;
+        gap: 24px;
+        align-items: start;
+    }
+    .footerSection .rightSide{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .leftSide .top{
+        display: none;
+    }
+    .rightSide .bottom{
+        display: block;
+    }
+    
+    
 }

@@ -14,7 +14,7 @@ export default function Destinations() {
       <DestinationlistItem />
       <DestinationCardList />
       <BigCardItem
-        url={mainImg}
+        backgroundImage={mainImg}
         quoteText="“Tiago put together an epic itinerary for me
 and my friends. He showed us some hidden
 hiking trails and amazing local food spots.

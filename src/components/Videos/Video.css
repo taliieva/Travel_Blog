@@ -1,6 +1,6 @@
 .imageContainer{
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 54px;
+    padding-right: 54px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,4 +55,23 @@
     background-color: #4A21EF;
     border-radius: 50%;
     color: white;
+}
+
+@media screen and (max-width:480px) {
+    .imageContainer{
+        margin: 15px 15px 30px 15px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .absoluteContainer h1{
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .absoluteContainer p{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+    }
 }

@@ -1,13 +1,20 @@
+import { useState } from "react";
 import "../../components/DestinationListItems/DestinationListItem.css";
 
 import { Link } from "react-router-dom";
 export function ListItem(props){
+  const [openList, setOpenList] = useState(true);
+
+  const openItem=()=>{
+    setOpenList(!openList);
+  }
     return(
         <div className="ListItemContainer">
+          <p onClick={openItem}>{props.header}</p>
             <ul>
-                <p>{props.header}</p>
+                
                 {props.list.map((item,index)=>(
-                    <li key={index}><Link to={`/${item}`}>{item}</Link></li>
+                    <li key={index} className={openList ? "open":"close"}><Link to={`/${item}`}>{item}</Link></li>
                 ))}
             </ul>
         </div>

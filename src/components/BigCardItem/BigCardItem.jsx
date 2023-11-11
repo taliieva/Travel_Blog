@@ -3,10 +3,18 @@ import bigPhotoHome from "../../assets/bigPhoto.png";
 import "../BigCardItem/BigCardItem.css";
 
 export default function BigCardItem(props) {
+  const { backgroundImage } = props;
+  const imageStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    height: '100vh'
+  };
   return (
-    <div className="bigCardContainer">
-      <img src={props.url} alt="" className="mainPhoto" />
-      <div className="absoluteBigCardDiv">
+    <div style={imageStyle} className="bigCardContainer">
+      
+     
         <div className="quoteDiv">
           <p className="quoteText">{props.quoteText}</p>
           <h3>{props.header}</h3>
@@ -38,7 +46,7 @@ export default function BigCardItem(props) {
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 }

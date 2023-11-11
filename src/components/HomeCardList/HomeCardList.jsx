@@ -16,6 +16,7 @@ import heart from "../../assets/player-heart.svg";
 import "../CardItem/CardItem.css";
 import "../HomeCardList/HomeCardList.css";
 export default function HomeCardListTrend(){
+    
     return(
         <div className="trend">
             <h2>Trending now</h2>
@@ -49,7 +50,7 @@ export function HomeCardListBrand(){
 
 export function Europe(){
     return(
-        <div className="europe">
+        <div className="europe" style={{marginTop:"120px"}}>
             <h2>Europe</h2>
             <div className="europeTrips">
             <CardItem photoUrl ={europe1} trip = "ICELAND TRIP" name = "Volcanic Iceland" 

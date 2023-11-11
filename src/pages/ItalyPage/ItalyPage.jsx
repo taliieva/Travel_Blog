@@ -23,7 +23,7 @@ export default function ItalyPage() {
       <Map/>
       <ItalyTripInfoList/>
       <BigCardItem
-        url={italyPhoto}
+        backgroundImage={italyPhoto}
         quoteText="We have a very good time all the way. The Capri boat ride is excellent and so much fun with the crew! They are awesome."
         text2 = "Vivian Lim"
         text3 = "18 June 2024" 
