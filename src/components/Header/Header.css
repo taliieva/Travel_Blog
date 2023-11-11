@@ -72,6 +72,23 @@
 .user {
   display: none;
 }
+
+.toggleValyuta{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 72px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 24px;
+  z-index: 1;
+}
+.toggleValyuta p{
+  margin-bottom: 12px;
+}
+.toggleValyuta p:last-child{
+  margin-bottom: 0;
+}
 @media screen and (max-width: 480px) {
   .header .topSection {
     display: none;
@@ -145,4 +162,5 @@
     font-weight: 600;
     cursor: pointer;
   }
+  
 }

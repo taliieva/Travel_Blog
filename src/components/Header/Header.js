@@ -70,8 +70,12 @@ export default function Header() {
         </div>
         <div className="rightSide">
           <p>US$</p>
-          
-          <div><img src={a} alt=""  onClick={toggleValyuta}/></div>
+          <div className={openValyuta ? "valyuta" : "toggleValyuta"}>
+            <p>AZN ₼</p>
+            <p>Euro €</p>
+            <p>Ruble ₽</p>
+          </div>
+          <img src={a} alt=""  onClick={toggleValyuta}/>
           
         </div>
       </div>
