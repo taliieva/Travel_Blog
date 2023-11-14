@@ -9,7 +9,7 @@ export default function BigCardItem(props) {
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    height: '100vh'
+    height: '700px'
   };
   return (
     <div style={imageStyle} className="bigCardContainer">
