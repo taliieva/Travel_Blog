@@ -5,43 +5,60 @@ import appleLogo from "../../assets/appleFrame.svg";
 import facebookLogo from "../../assets/facebookFrame.svg";
 import leftChevron from "../../assets/Chevron_Left.svg";
 import { Link } from "react-router-dom";
-import "../TripPlanning/TripPlanning.css";
-export default function TripPlanning(){
-    return(
-        <div className="tripPlanMain">
-            <div className="tripPlanPage">
-            <img src={signPhoto} alt="" className="tripLeftPhoto"/>
-            <div className="rightTripSection">
-                <div className="signLogo">
-                    <Link to="/Sign"> <img src={leftChevron} alt="" className="arrow"/></Link>
-               
-                    <img src={signLogo} alt="" className="logo"/>
-                    <div></div>
-                </div>
-                <div className="tripFormSection">
-                    <h2>Create an account to start trip planning</h2>
-                    <form action="#" className="tripFormContainer">
-                        <label htmlFor="mail">Email</label>
-                        
-                        <input type="text" id="mail" placeholder="someone@example.com" className="mail"/>
-                        <button>Start trip planning</button>
-                    </form>
-                </div>
-                <div className="socialSection">
-                    <span>or use one of this</span>
-                    <div className="logoContainer">
-                        <button className="logoDiv"><img src={googleLogo} alt="" /></button>
-                        <button className="logoDiv"><img src={appleLogo} alt="" /></button>
-                        <button className="logoDiv"><img src={facebookLogo} alt="" /></button>
-                    </div>
-                </div>
-                <div className="privacySection"> 
-                    <p>By creating an account, you agree to elsewhere's <br />
-                         <a href="#">Terms of Use</a> or <a href="#"> Privacy Policy</a>.</p>
-                </div>
+import style from "./TripPlanning.module.css";
+export default function TripPlanning() {
+  return (
+    <div className={style.tripPlanMain}>
+      <div className={style.tripPlanPage}>
+        <img src={signPhoto} alt="" className={style.tripLeftPhoto} />
+        <div className={style.rightTripSection}>
+          <div className={style.signLogo}>
+            <Link to="/Sign">
+              {" "}
+              <img src={leftChevron} alt="" className={style.arrow} />
+            </Link>
+
+            <Link to="/">
+              <img src={signLogo} alt="" />
+            </Link>
+            <div></div>
+          </div>
+          <div className={style.tripFormSection}>
+            <h2>Create an account to start trip planning</h2>
+            <form action="#" className={style.tripFormContainer}>
+              <label htmlFor="mail">Email</label>
+
+              <input
+                type="text"
+                id="mail"
+                placeholder="someone@example.com"
+                className={style.mail}
+              />
+              <button>Start trip planning</button>
+            </form>
+          </div>
+          <div className={style.socialSection}>
+            <span>or use one of this</span>
+            <div className={style.logoContainer}>
+              <button className={style.logoDiv}>
+                <img src={googleLogo} alt="" />
+              </button>
+              <button className={style.logoDiv}>
+                <img src={appleLogo} alt="" />
+              </button>
+              <button className={style.logoDiv}>
+                <img src={facebookLogo} alt="" />
+              </button>
             </div>
+          </div>
+          <div className={style.privacySection}>
+            <p>
+              By creating an account, you agree to elsewhere's <br />
+              <a href="#">Terms of Use</a> or <a href="#"> Privacy Policy</a>.
+            </p>
+          </div>
         </div>
-        </div>
-        
-    )
+      </div>
+    </div>
+  );
 }

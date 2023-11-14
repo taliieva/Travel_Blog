@@ -1,16 +1,19 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import NavCardItem from "../../components/NavCardItem/NavCardItem";
-import faqPhoto from "../../assets/FAQ.png";
-import FAQText from "../../components/FAQText/FAQText";
+import faqPhoto from "../..//assets/FAQ.png";
 import "../../pages/FAQ/FAQ.css";
-export default function FAQ(){
-    return(
-        <div>
-            <Header/>
-            <NavCardItem url={faqPhoto} header="FAQ" text="Unlocking the Mysteries of Travel: Your Questions, Our Journey."/>
-            <FAQText/>
-            <Footer/>
-        </div>
-    )
+import FAQText from "./FAQText/FAQText";
+import Layout from "../Layouts/Layouts";
+export default function FAQ() {
+  return (
+    <Layout>
+      <NavCardItem
+        url={faqPhoto}
+        header="FAQ"
+        text="Unlocking the Mysteries of Travel: Your Questions, Our Journey."
+      />
+      <FAQText />
+    </Layout>
+  );
 }

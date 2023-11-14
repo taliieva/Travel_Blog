@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../../public/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.upArrowButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.upArrowButton button {
+  display: flex;
+  padding: 12px 24px;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a21ef;
+  border-radius: 50%;
+  border: none;
+  margin: 0 95px 24px;
+}

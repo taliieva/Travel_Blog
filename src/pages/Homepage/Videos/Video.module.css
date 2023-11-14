@@ -1,0 +1,76 @@
+.imageContainer {
+  padding-left: 54px;
+  padding-right: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 120px;
+}
+.absoluteContainer {
+  position: absolute;
+  display: inline-block;
+}
+.imageContainer img {
+  border-radius: 20px;
+}
+.absoluteContainer h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 60px;
+}
+.absoluteContainer p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.inputOnVideo {
+  background-color: white;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+  flex: 1 0 0;
+  padding: 5px 8px 5px 24px;
+  gap: 24px;
+  border-radius: 70px;
+  border: 1px solid #c9d2da;
+}
+.inputOnVideo input {
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  line-height: 24px;
+  outline: none;
+}
+.searchIcon {
+  padding: 12px;
+  background-color: #4a21ef;
+  border-radius: 50%;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .imageContainer {
+    margin: 15px 15px 30px 15px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .absoluteContainer h1 {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .absoluteContainer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+}

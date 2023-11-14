@@ -1,0 +1,47 @@
+.mapContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.map_top_section {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 36px 95px;
+  background: linear-gradient(180deg, #97a5b2 0%, rgba(151, 165, 178, 0) 100%);
+}
+.map_top_section h3 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #fff;
+}
+.buttonSection {
+  display: flex;
+  gap: 16px;
+}
+.buttonSection div {
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.cardSection {
+  position: absolute;
+  bottom: 10%;
+  right: 95px;
+  border: 1px solid #e3e7eb;
+  border-radius: 20px 20px 15px 15px;
+  width: 28%;
+}
+.cardSection img {
+  width: 100%;
+}
+.cardSection p {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}

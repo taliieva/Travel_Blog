@@ -1,0 +1,111 @@
+.localExpert {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+.localContainer {
+  display: flex;
+}
+.localExpert h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.bottomPhoto {
+  top: 50px;
+  position: relative;
+  left: -70px;
+}
+.topPhoto {
+  position: relative;
+}
+.topVectorContaier {
+  position: absolute;
+  top: 50px;
+  left: -90px;
+}
+.topVectorContaier p {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 80%;
+}
+.bottomVectorContainer {
+  position: absolute;
+  bottom: 50px;
+  right: -60px;
+}
+.bottomVectorContainer p {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 80%;
+}
+.responsiveContainer {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .localContainer {
+    display: none;
+  }
+  .responsiveContainer {
+    display: block;
+    width: 100%;
+    padding: 24px 15px;
+  }
+  .localExpert {
+    gap: 24px;
+    padding: 32px 0;
+  }
+  .responsiveBottomPhoto {
+    position: relative;
+    top: -60px;
+  }
+  .responsiveTopPhoto {
+    position: relative;
+  }
+  .topResponsVectorContaier {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+  }
+  .topResponsVectorContaier img {
+    width: 200px;
+  }
+  .topResponsVectorContaier p {
+    position: absolute;
+    top: 10px;
+
+    width: 90%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .responsiveBottomPhoto {
+    position: relative;
+  }
+  .bottomResponsVectorContaier {
+    position: absolute;
+    bottom: 15px;
+    right: -90px;
+  }
+  .bottomResponsVectorContaier img {
+    width: 80%;
+  }
+  .bottomResponsVectorContaier p {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 75%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}

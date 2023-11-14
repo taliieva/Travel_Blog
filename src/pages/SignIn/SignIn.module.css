@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../../public/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+.signMain {
+  width: 100%;
+}
+.signPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.signPage img {
+  height: 100%;
+}
+.rightSignSection {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.signLogo {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.signFormSection {
+  display: grid;
+  gap: 36px;
+  margin-top: 120px;
+}
+.signFormContainer {
+  display: grid;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.signFormSection h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.signFormContainer label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px 0;
+}
+.mail {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #788795;
+}
+.signFormContainer button {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  background-color: #4a21ef;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+}
+.forgotPassword {
+  text-decoration: none;
+  color: black;
+  text-align: right;
+  padding: 16px 0;
+}
+.socialSection {
+  display: grid;
+  gap: 40px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.socialSection span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #97a5b2;
+  text-align: center;
+}
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.logoDiv {
+  padding: 12px 16px;
+  border: 1px solid #e3e7eb;
+  width: 100%;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #fff;
+}
+.goLoginSection {
+  padding-top: 35px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.goLoginSection a {
+  text-decoration: none;
+  color: #4a21ef;
+}
+.passwordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #788795;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.passwordDiv input {
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  width: 100%;
+  border: none;
+}
+.topLoginSection {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .signPage {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .leftSignPhoto {
+    display: none;
+  }
+  .signLogo {
+    padding: 20px 0;
+  }
+  .signFormSection h2 {
+    font-size: 20px;
+    line-height: 32px;
+    align-self: stretch;
+  }
+  .signFormContainer {
+    margin-bottom: 40px;
+  }
+  .signFormSection {
+    gap: 24px;
+    margin-top: 40px;
+  }
+  .logoContainer {
+    flex-direction: column;
+  }
+  .topLoginSection {
+    display: block;
+  }
+  .bottomLoginSection {
+    display: none;
+  }
+  .goLoginSection {
+    padding: 20px 0;
+    text-align: start;
+  }
+  .socialSection {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

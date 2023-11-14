@@ -3,33 +3,33 @@ import Header from "../../components/Header/Header.js";
 import Footer from "../../components/Footer/Footer.js";
 import { Revolution } from "../../components/Footer/Footer.js";
 import { OurDestination } from "../../components/Footer/Footer.js";
+import { WhyUs } from "../ItalyPage/HelpComponent/HelpComponent.jsx";
+import LocalExpert from "../../components/LocalExpert/Local.jsx";
+import BigCardItem from "../../components/BigCardItem/BigCardItem.jsx";
+import mainPhoto from "../..//assets/bigPhoto.png";
+import upArrow from "../..//assets/Arrow_Up_SM.svg";
+import style from "./Homepage.module.css";
 import HomeCardListTrend, {
   Asia,
   Europe,
   HomeCardListBrand,
-} from "../../components/HomeCardList/HomeCardList.jsx";
-import {WhyUs} from "../../components/HelpComponent/HelpComponent.jsx";
-import HomePageVideo from "../../components/Videos/Video.jsx";
-import LocalExpert from "../../components/LocalExpert/Local.jsx";
-import BigCardItem from "../../components/BigCardItem/BigCardItem.jsx";
-import mainPhoto from "../../assets/bigPhoto.png";
-import upArrow from "../../assets/Arrow_Up_SM.svg";
-import "../../pages/Homepage/Homepage.css";
+} from "./HomeCardList/HomeCardList.jsx";
+import HomePageVideo from "./Videos/Video.jsx";
+import Layout from "../Layouts/Layouts.jsx";
 function HomePage() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' 
+      behavior: "smooth",
     });
   };
-  
+
   return (
-    <div className="home">
-      <Header />
+    <Layout className={style.home}>
       <HomePageVideo />
       <HomeCardListTrend />
       <HomeCardListBrand />
-      <WhyUs/>
+      <WhyUs />
       <LocalExpert />
       <BigCardItem
         backgroundImage={mainPhoto}
@@ -41,7 +41,7 @@ had everything we needed."
         header="Thanks Tiago!”"
         text1="Charlie, rappelling down a 370-foot waterfall"
         author="The Azores"
-        text2 = "Trip crafted by"
+        text2="Trip crafted by"
         name="Tiago"
         text3="Local expert in Portugal"
       />
@@ -49,14 +49,12 @@ had everything we needed."
       <Asia />
       <OurDestination />
       <Revolution />
-      <div className="upArrowButton">
+      <div className={style.upArrowButton}>
         <button onClick={scrollToTop}>
-        <img src={upArrow} alt="" />
+          <img src={upArrow} alt="" />
         </button>
-          
       </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

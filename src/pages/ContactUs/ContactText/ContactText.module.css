@@ -1,0 +1,28 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 120px 0;
+}
+.contactContainer div {
+  width: 35%;
+}
+.contactContainer h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 24px;
+}
+.contactContainer p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #141d24;
+  margin-top: 24px;
+}
+.contactContainer a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

@@ -1,0 +1,21 @@
+.navContainer {
+  padding: 72px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.navContainer button {
+  color: #3a4d5a;
+  background-color: #f5f7fa;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 100px;
+}
+.navContainer button:hover {
+  color: #fff;
+  background-color: #4a21ef;
+}

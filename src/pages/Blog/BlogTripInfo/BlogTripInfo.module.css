@@ -1,0 +1,14 @@
+.blogTripContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 95px 120px 95px;
+}
+.topContainer {
+  display: flex;
+  gap: 24px;
+}
+.lowerContainer {
+  display: flex;
+  gap: 24px;
+}

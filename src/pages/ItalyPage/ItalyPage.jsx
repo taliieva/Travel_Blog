@@ -6,35 +6,34 @@ import Footer, {
 import Header from "../../components/Header/Header";
 import italyPhoto from "../../assets/italyPagePhoto.png";
 import icon1 from "../../assets/starIcon.svg";
-import icon2 from '../../assets/starIcon2.svg';
-import ItalyCardList from "../../components/ItalyCardList/ItalyCardList";
+import icon2 from "../../assets/starIcon2.svg";
 import "../../pages/ItalyPage/ItalyPage.css";
-import ItalyTripInfoList from "../../components/ItalyTripInfoList/ItalyTripInfoList";
-import ItalyMainPhoto from "../../components/ItalyMainPhoto/ItalyMainPhoto";
-import HelpComponent from "../../components/HelpComponent/HelpComponent";
-import Map from "../../components/Map/Map";
+import HelpComponent from "./HelpComponent/HelpComponent";
+import ItalyCardList from "./ItalyCardList/ItalyCardList";
+import ItalyMainPhoto from "./ItalyMainPhoto/ItalyMainPhoto";
+import ItalyTripInfoList from "./ItalyTripInfoList/ItalyTripInfoList";
+import Map from "./Map/Map";
+import Layout from "../Layouts/Layouts";
 
 export default function ItalyPage() {
   return (
-    <div>
-      <Header />
-      <ItalyMainPhoto/>
-      <ItalyCardList/>
-      <Map/>
-      <ItalyTripInfoList/>
+    <Layout>
+      <ItalyMainPhoto />
+      <ItalyCardList />
+      <Map />
+      <ItalyTripInfoList />
       <BigCardItem
         backgroundImage={italyPhoto}
         quoteText="We have a very good time all the way. The Capri boat ride is excellent and so much fun with the crew! They are awesome."
-        text2 = "Vivian Lim"
-        text3 = "18 June 2024" 
+        text2="Vivian Lim"
+        text3="18 June 2024"
         showIcon={true}
-        icon1 = {icon1}
-        icon2 = {icon2}
+        icon1={icon1}
+        icon2={icon2}
       />
-      <HelpComponent/>
+      <HelpComponent />
       <OurDestination />
       <Revolution />
-      <Footer />
-    </div>
+    </Layout>
   );
 }

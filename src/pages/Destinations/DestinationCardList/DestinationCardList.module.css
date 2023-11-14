@@ -1,0 +1,32 @@
+.destinationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.destinationCardItem {
+  display: flex;
+  gap: 40px 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.destinationContainer h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+@media screen and (max-width: 480px) {
+  .destinationContainer {
+    /* width: 90%; */
+  }
+  .destinationCardItem {
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    gap: 40px 25px;
+    display: flex;
+    justify-content: initial;
+  }
+}

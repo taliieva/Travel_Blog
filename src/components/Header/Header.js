@@ -1,29 +1,28 @@
-import "./Header.css";
 import a from "../../assets/selector.svg";
 import logo from "../../assets/Logo.png";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 import menuIcon from "../../assets/Hamburger_MD.svg";
 import user from "../../assets/User_01.svg";
-
+import style from "./Header.module.css";
 export default function Header() {
   const location = useLocation();
-  const [open,setOpen]=useState(true);
+  const [open, setOpen] = useState(true);
   const [openUser, setOpenUser] = useState(true);
   const [openValyuta, setOpenValyuta] = useState(true);
 
-  const toggleValyuta=()=>{
+  const toggleValyuta = () => {
     setOpenValyuta(!openValyuta);
-  }
-  const toggleUser=()=>{
+  };
+  const toggleUser = () => {
     setOpenUser(!openUser);
-  }
+  };
   const toggleMenu = () => {
     setOpen(!open);
   };
   return (
-    <div className="header">
-      <div className="topSection">
+    <div className={style.header}>
+      <div className={style.topSection}>
         <div>
           <ul>
             <li>
@@ -68,19 +67,20 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div className="rightSide">
+        <div className={style.rightSide}>
           <p>US$</p>
-          <div className={openValyuta ? "valyuta" : "toggleValyuta"}>
+          <div
+            className={`${openValyuta ? style.valyuta : style.toggleValyuta}`}
+          >
             <p>AZN ₼</p>
             <p>Euro €</p>
             <p>Ruble ₽</p>
           </div>
-          <img src={a} alt=""  onClick={toggleValyuta}/>
-          
+          <img src={a} alt="" onClick={toggleValyuta} />
         </div>
       </div>
-      <div className="bottomSection">
-        <div className={open ? "bottomLeft":"toggle"}>
+      <div className={style.bottomSection}>
+        <div className={`${open ? style.bottomLeft : style.toggle}`}>
           <Link
             to="/Destinations"
             style={{
@@ -92,23 +92,24 @@ export default function Header() {
           </Link>
           <a href="#">Private trips</a>
         </div>
-        <div className="menuIcon" onClick={toggleMenu}>
+        <div className={style.menuIcon} onClick={toggleMenu}>
           <img src={menuIcon} alt="" />
         </div>
-        <div className="bottomCenter">
-          <img src={logo} alt="" />
+        <div className={style.bottomCenter}>
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
-        <div className={openUser ? "bottomRight": "toggleUser"}>
+        <div className={`${openUser ? style.bottomRight : style.toggleUser}`}>
           <button>I`m Feeling Lucky</button>
           <Link to="/Sign">
             <button>Login</button>
           </Link>
         </div>
-       
-          <button className="user" onClick={toggleUser}>
-            <img src={user} alt="" />
-          </button>
-       
+
+        <button className={style.user} onClick={toggleUser}>
+          <img src={user} alt="" />
+        </button>
       </div>
     </div>
   );

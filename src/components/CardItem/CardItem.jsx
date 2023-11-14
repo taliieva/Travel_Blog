@@ -1,33 +1,33 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import bookMark from "../../assets/bookmark.svg";
-
+import style from "./CardItem.module.css";
 export default function CardItem(props){
     return(
-        <div className="cardItem">
-            <div className="cardImg">
+        <div className={style.cardItem}>
+            <div className={style.cardImg}>
                 <img src={props.photoUrl} alt="" />
-                <div className='favIconButton'>
+                <div className={style.favIconButton}>
                 {props.showButton && <button>
-                        <img src={props.icon} alt="" className='iconImg'/>
-                        <p className='iconText'>{props.text}</p>
+                        <img src={props.icon} alt="" className={style.iconImg}/>
+                        <p className={style.iconText}>{props.text}</p>
                     </button>}
                 </div>
 
-                {props.showBookMark && <div className='bookMarkIcon'>
-                    <button className='saveButton'>
-                    <img src={bookMark} alt="" className='bookMark'/>
+                {props.showBookMark && <div className={style.bookMarkIcon}>
+                    <button className={style.saveButton}>
+                    <img src={bookMark} alt="" className={style.bookMark}/>
                     </button>
                     
                 </div>}
                 
             </div>
-            <div className="itemFirstSection">
-                 <p className="trip">{props.trip}</p>
-                 <h1 className="tripName">{props.name}</h1>
-                 <div className="itemSecondSection">
-                    <p className="tripDays">{props.days}</p>
-                    <p className="from">{props.from}<span className="tripPrice">{props.price}</span></p>
+            <div className={style.itemFirstSection}>
+                 <p className={style.trip}>{props.trip}</p>
+                 <h1 className={style.tripName}>{props.name}</h1>
+                 <div className={style.itemSecondSection}>
+                    <p className={style.tripDays}>{props.days}</p>
+                    <p className={style.from}>{props.from}<span className={style.tripPrice}>{props.price}</span></p>
                  </div>
             </div>
         </div>
