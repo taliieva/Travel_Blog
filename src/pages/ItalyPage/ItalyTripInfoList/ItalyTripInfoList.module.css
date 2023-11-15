@@ -1,7 +1,7 @@
 .tripInfoListContainer {
   display: grid;
   gap: 40px;
-  margin: 120px 95px;
+  margin: 120px 72px;
 }
 .tripInfoListContainer h2 {
   text-align: center;
