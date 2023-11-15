@@ -1,9 +1,9 @@
-import signPhoto from "../..//assets/signPhoto.png";
-import signLogo from "../..//assets/Logo.png";
-import googleLogo from "../..//assets/googleFrame.svg";
-import appleLogo from "../..//assets/appleFrame.svg";
-import facebookLogo from "../..//assets/facebookFrame.svg";
-import eye from "../..//assets/01 align center.svg";
+import signPhoto from "../../../public/assets/signPhoto.png";
+import signLogo from "../../../public/assets/Logo.png";
+import googleLogo from "../../../public/assets/googleFrame.svg";
+import appleLogo from "../../../public/assets/appleFrame.svg";
+import facebookLogo from "../../../public/assets/facebookFrame.svg";
+import eye from "../../../public/assets/01 align center.svg";
 import { Link } from "react-router-dom";
 import style from "./SignIn.module.css";
 export default function SignIn() {

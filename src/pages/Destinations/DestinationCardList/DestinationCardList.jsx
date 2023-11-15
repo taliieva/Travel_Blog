@@ -1,10 +1,10 @@
 import CardItem from "../../../components/CardItem/CardItem";
-import italyTrip from "../../../assets/destinationImg1.png";
-import portugalTrip from "../../../assets/destinationImg2.png";
-import turkeyTrip from "../../../assets/destinationImg3.png";
-import icelandTrip from "../../../assets/destinationImg4.png";
-import costaTrip from "../../../assets/destinationImg5.png";
-import argentinaTrip from "../../../assets/destinationImg6.png";
+import italyTrip from "../../../../public/assets/destinationImg1.png";
+import portugalTrip from "../../../../public/assets/destinationImg2.png";
+import turkeyTrip from "../../../../public/assets/destinationImg3.png";
+import icelandTrip from "../../../../public/assets/destinationImg4.png";
+import costaTrip from "../../../../public/assets/destinationImg5.png";
+import argentinaTrip from "../../../../public/assets/destinationImg6.png";
 import style from "./DestinationCardList.module.css";
 
 export default function DestinationCardList() {

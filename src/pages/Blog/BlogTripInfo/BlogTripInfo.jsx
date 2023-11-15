@@ -1,9 +1,9 @@
 import TripInfoItem from "../../../components/TripInfoItem/TripInfoItem.jsx";
-import blog1 from "../../../assets/blogPhoto1.png";
-import blog2 from "../../../assets/blogPhoto2.png";
-import blog3 from "../../../assets/blogPhoto3.png";
-import blog4 from "../../../assets/blogPhoto4.png";
-import blog5 from "../../../assets/blogPhoto5.png";
+import blog1 from "../../../../public/assets/blogPhoto1.png";
+import blog2 from "../../../../public/assets/blogPhoto2.png";
+import blog3 from "../../../../public/assets/blogPhoto3.png";
+import blog4 from "../../../../public/assets/blogPhoto4.png";
+import blog5 from "../../../../public/assets/blogPhoto5.png";
 import style from "./BlogTripInfo.module.css";
 export default function BlogTripInfo() {
   return (

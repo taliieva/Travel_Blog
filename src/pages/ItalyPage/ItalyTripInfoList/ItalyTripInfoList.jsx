@@ -1,7 +1,7 @@
 import TripInfoItem from "../../../components/TripInfoItem/TripInfoItem";
-import tripInfo1 from "../../../assets/tripInfo1.png";
-import tripInfo2 from "../../../assets/tripInfo2.png";
-import tripInfo3 from "../../../assets/tripInfo3.png";
+import tripInfo1 from "../../../../public/assets/tripInfo1.png";
+import tripInfo2 from "../../../../public/assets/tripInfo2.png";
+import tripInfo3 from "../../../../public/assets/tripInfo3.png";
 import style from "./ItalyTripInfoList.module.css";
 export default function ItalyTripInfoList() {
   return (

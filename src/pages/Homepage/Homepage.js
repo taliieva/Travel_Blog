@@ -6,8 +6,8 @@ import { OurDestination } from "../../components/Footer/Footer.js";
 import { WhyUs } from "../ItalyPage/HelpComponent/HelpComponent.jsx";
 import LocalExpert from "../../components/LocalExpert/Local.jsx";
 import BigCardItem from "../../components/BigCardItem/BigCardItem.jsx";
-import mainPhoto from "../..//assets/bigPhoto.png";
-import upArrow from "../..//assets/Arrow_Up_SM.svg";
+import mainPhoto from "../../../public/assets/bigPhoto.png";
+import upArrow from "../../../public/assets/Arrow_Up_SM.svg";
 import style from "./Homepage.module.css";
 import HomeCardListTrend, {
   Asia,

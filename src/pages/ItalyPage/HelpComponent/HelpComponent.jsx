@@ -1,14 +1,14 @@
 import style from "./HelpComponent.module.css";
 import HelpCardItem from "../../../components/HelpCardItem/HelpCardItem";
-import info1 from "../../../assets/info1.svg";
-import info2 from "../../../assets/info2.svg";
-import info3 from "../../../assets/info3.svg";
-import info4 from "../../../assets/info4.svg";
-import info5 from "../../../assets/info5.svg";
-import info6 from "../../../assets/info6.svg";
-import why1 from "../../../assets/why1.png";
-import why2 from "../../../assets/why2.png";
-import why3 from "../../../assets/why3.png";
+import info1 from "../../../../public/assets/info1.svg";
+import info2 from "../../../../public/assets/info2.svg";
+import info3 from "../../../../public/assets/info3.svg";
+import info4 from "../../../../public/assets/info4.svg";
+import info5 from "../../../../public/assets/info5.svg";
+import info6 from "../../../../public/assets/info6.svg";
+import why1 from "../../../../public/assets/why1.png";
+import why2 from "../../../../public/assets/why2.png";
+import why3 from "../../../../public/assets/why3.png";
 
 export default function HelpComponent() {
   return (

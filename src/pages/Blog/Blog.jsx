@@ -4,7 +4,7 @@ import Footer, {
 } from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import NavCardItem from "../../components/NavCardItem/NavCardItem";
-import blogPhoto from "../..//assets/blog.png";
+import blogPhoto from "../../../public/assets/blog.png";
 import BlogNavLink from "./BlogNavLink/BlogNavLink";
 import BlogTripInfo from "./BlogTripInfo/BlogTripInfo";
 import Layout from "../Layouts/Layouts";

@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import NavCardItem from "../../components/NavCardItem/NavCardItem";
-import faqPhoto from "../..//assets/FAQ.png";
+import faqPhoto from "../../../public/assets/FAQ.png";
 import "../../pages/FAQ/FAQ.css";
 import FAQText from "./FAQText/FAQText";
 import Layout from "../Layouts/Layouts";

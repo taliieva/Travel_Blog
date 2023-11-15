@@ -1,6 +1,6 @@
-import signPhoto from "../..//assets/signPhoto.png";
-import signLogo from "../..//assets/Logo.png";
-import leftChevron from "../..//assets/Chevron_Left.svg";
+import signPhoto from "../../../public/assets/signPhoto.png";
+import signLogo from "../../../public/assets/Logo.png";
+import leftChevron from "../../../public/assets/Chevron_Left.svg";
 import { Link } from "react-router-dom";
 import style from "./ForgotPassword.module.css";
 

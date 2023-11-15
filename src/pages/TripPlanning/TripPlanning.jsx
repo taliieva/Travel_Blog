@@ -1,9 +1,9 @@
-import signPhoto from "../../assets/signPhoto.png";
-import signLogo from "../../assets/Logo.png";
-import googleLogo from "../../assets/googleFrame.svg";
-import appleLogo from "../../assets/appleFrame.svg";
-import facebookLogo from "../../assets/facebookFrame.svg";
-import leftChevron from "../../assets/Chevron_Left.svg";
+import signPhoto from "../../../public/assets/signPhoto.png";
+import signLogo from "../../../public/assets/Logo.png";
+import googleLogo from "../../../public/assets/googleFrame.svg";
+import appleLogo from "../../../public/assets/appleFrame.svg";
+import facebookLogo from "../../../public/assets/facebookFrame.svg";
+import leftChevron from "../../../public/assets/Chevron_Left.svg";
 import { Link } from "react-router-dom";
 import style from "./TripPlanning.module.css";
 export default function TripPlanning() {

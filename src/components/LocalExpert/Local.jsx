@@ -1,9 +1,9 @@
-import local1 from "../../assets/local1.png";
-import local2 from "../..//assets/local2.png";
-import vector1 from "../..//assets/Vector (1).png";
-import vector2 from "../..//assets/Vector (2).png";
-import responslocal1 from "../..//assets/responsivelocal1.png";
-import responslocal2 from "../..//assets/responsivelocal2.png";
+import local1 from "../../../public/assets/local1.png";
+import local2 from "../../../public/assets/local2.png";
+import vector1 from "../../../public/assets/Vector (1).png";
+import vector2 from "../../../public/assets/Vector (2).png";
+import responslocal1 from "../../../public/assets/responsivelocal1.png";
+import responslocal2 from "../../../public/assets/responsivelocal2.png";
 import style from "./Local.module.css";
 export default function LocalExpert() {
   return (

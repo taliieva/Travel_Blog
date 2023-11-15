@@ -1,9 +1,9 @@
-import a from "../../assets/selector.svg";
-import logo from "../../assets/Logo.png";
+import a from "../../../public/assets/selector.svg";
+import logo from "../../../public/assets/Logo.png";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
-import menuIcon from "../../assets/Hamburger_MD.svg";
-import user from "../../assets/User_01.svg";
+import menuIcon from "../../../public/assets/Hamburger_MD.svg";
+import user from "../../../public/assets/User_01.svg";
 import style from "./Header.module.css";
 export default function Header() {
   const location = useLocation();

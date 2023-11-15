@@ -1,10 +1,10 @@
 import style from "./ItalyMainPhoto.module.css";
-import italy from "../../../assets/Italy.png";
-import frame1 from "../../../assets/fi-rr-calendar.svg";
-import frame2 from "../../../assets/sun.svg";
-import frame3 from "../../../assets/earth.svg";
-import frame4 from "../../../assets/dollar-sign.svg";
-import frame5 from "../../../assets/Frame.svg";
+import italy from "../../../../public/assets/Italy.png";
+import frame1 from "../../../../public/assets/fi-rr-calendar.svg";
+import frame2 from "../../../../public/assets/sun.svg";
+import frame3 from "../../../../public/assets/earth.svg";
+import frame4 from "../../../../public/assets/dollar-sign.svg";
+import frame5 from "../../../../public/assets/Frame.svg";
 export default function ItalyMainPhoto() {
   return (
     <div className={style.italyMainContainer}>

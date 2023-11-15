@@ -1,10 +1,10 @@
 import CardItem from "../../../components/CardItem/CardItem";
-import italy1 from "../../../assets/italy1.png";
-import italy2 from "../../../assets/italy2.png";
-import italy3 from "../../../assets/italy3.png";
-import italy4 from "../../../assets/italy4.png";
-import italy5 from "../../../assets/italy5.png";
-import italy6 from "../../../assets/italy6.png";
+import italy1 from "../../../../public/assets/italy1.png";
+import italy2 from "../../../../public/assets/italy2.png";
+import italy3 from "../../../../public/assets/italy3.png";
+import italy4 from "../../../../public/assets/italy4.png";
+import italy5 from "../../../../public/assets/italy5.png";
+import italy6 from "../../../../public/assets/italy6.png";
 import style from "./ItalyCardList.module.css";
 export default function ItalyCardList() {
   return (

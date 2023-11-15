@@ -1,4 +1,4 @@
-import destinationVideo from "../../../assets/Destinations.gif";
+import destinationVideo from "../../../../public/assets/Destinations.gif";
 import style from "./DestinationVideo.module.css";
 export default function DestinationVideo() {
   return (

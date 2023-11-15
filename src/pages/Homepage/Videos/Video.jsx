@@ -1,4 +1,4 @@
-import homePageVideo from "../../../assets/Homepage.gif";
+import homePageVideo from "../../../../public/assets/Homepage.gif";
 import style from "./Video.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";

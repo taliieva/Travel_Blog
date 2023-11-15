@@ -1,7 +1,7 @@
 import BigCardItem from "../../components/BigCardItem/BigCardItem";
 import Footer, { Revolution } from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import mainImg from "../..//assets/destinationBigImg.png";
+import mainImg from "../../../public/assets/destinationBigImg.png";
 import "../../pages/Destinations/Destination.css";
 import DestinationlistItem from "./DestinationListItems/DestinationListItem";
 import DestinationCardList from "./DestinationCardList/DestinationCardList";

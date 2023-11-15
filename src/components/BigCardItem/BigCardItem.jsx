@@ -1,5 +1,4 @@
-import frame from "../../assets/bigPageFrame.png";
-import bigPhotoHome from "../../assets/bigPhoto.png";
+import frame from "../../../public/assets/bigPageFrame.png";
 //import "../BigCardItem/BigCardItem.css";
 import style from "./BigCardItem.module.css";
 

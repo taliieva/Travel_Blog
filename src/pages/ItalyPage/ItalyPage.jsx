@@ -4,9 +4,9 @@ import Footer, {
   Revolution,
 } from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import italyPhoto from "../../assets/italyPagePhoto.png";
-import icon1 from "../../assets/starIcon.svg";
-import icon2 from "../../assets/starIcon2.svg";
+import italyPhoto from "../../../public/assets/italyPagePhoto.png";
+import icon1 from "../../../public/assets/starIcon.svg";
+import icon2 from "../../../public/assets/starIcon2.svg";
 import "../../pages/ItalyPage/ItalyPage.css";
 import HelpComponent from "./HelpComponent/HelpComponent";
 import ItalyCardList from "./ItalyCardList/ItalyCardList";

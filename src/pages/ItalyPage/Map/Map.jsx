@@ -1,8 +1,8 @@
 import style from "./Map.module.css";
-import mapPhoto from "../../../assets/MapItaly.png";
-import left from "../../../assets/chevron-leftt.svg";
-import right from "../../../assets/chevron-right.svg";
-import italy from "../../../assets/mapPhoto.png";
+import mapPhoto from "../../../../public/assets/MapItaly.png";
+import left from "../../../../public/assets/chevron-leftt.svg";
+import right from "../../../../public/assets/chevron-right.svg";
+import italy from "../../../../public/assets/mapPhoto.png";
 export default function Map() {
   return (
     <div className={style.mapContainer}>

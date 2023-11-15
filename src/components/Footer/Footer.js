@@ -1,5 +1,5 @@
-import b from "../../assets/Logo.png";
-import angleRight from "../../assets/angleRight.png";
+import b from "../../../public/assets/Logo.png";
+import angleRight from "../../../public/assets/angleRight.png";
 import style from "./Footer.module.css";
 export default function Footer() {
   return (

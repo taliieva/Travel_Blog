@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
-import bookMark from "../../assets/bookmark.svg";
+import bookMark from "../../../public/assets/bookmark.svg";
 import style from "./CardItem.module.css";
 export default function CardItem(props){
     return(
