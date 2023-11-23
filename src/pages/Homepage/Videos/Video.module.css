@@ -14,6 +14,7 @@
 }
 .imageContainer img {
   border-radius: 20px;
+  width: 100%;
 }
 .absoluteContainer h1 {
   font-size: 48px;

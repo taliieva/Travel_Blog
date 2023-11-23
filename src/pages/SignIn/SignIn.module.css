@@ -75,6 +75,9 @@
   text-align: right;
   padding: 16px 0;
 }
+.leftSignPhoto{
+  width: 100%;
+}
 .socialSection {
   display: grid;
   gap: 40px;

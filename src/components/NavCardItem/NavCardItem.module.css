@@ -6,6 +6,11 @@
   position: relative;
   text-align: center;
 }
+.navCardContainer img{
+  width: 100%;
+  padding-left: 72px;
+  padding-right: 72px;
+}
 .navCardText {
   position: absolute;
   display: grid;
